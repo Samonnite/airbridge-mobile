@@ -163,9 +163,9 @@
       <!-- <q-toolbar>
           <q-toolbar-title>Footer</q-toolbar-title>
         </q-toolbar> -->
-      <q-tabs v-model="state.tab" class="text-white">
+      <q-tabs v-model="state.tab" style="color: #616161">
         <q-tab name="mails" icon="mail" label="首页" />
-        <q-tab name="alarms" icon="alarm" label="行情" />
+        <q-tab name="alarms" icon="alarm" label="行情" class="text-white" />
         <q-tab name="movies" icon="movie" label="交易" />
         <q-tab name="movies" icon="movie" label="我的" />
       </q-tabs>

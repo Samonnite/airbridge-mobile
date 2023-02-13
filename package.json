@@ -5,16 +5,19 @@
   "productName": "airbridge",
   "author": "Samonnite <samonnite@gmail.com>",
   "private": true,
+  "homepage": "https://Samonnite.github.io/airbridge-mobile",
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
     "@capacitor/android": "^4.6.3",
     "@capacitor/cli": "^4.6.3",
     "@capacitor/core": "^4.6.3",
     "@quasar/extras": "^1.0.0",
+    "gh-pages": "^5.0.0",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"

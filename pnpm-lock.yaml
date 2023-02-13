@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@capacitor/android': ^4.6.3
   '@capacitor/cli': ^4.6.3
   '@capacitor/core': ^4.6.3
   '@quasar/app-vite': ^1.0.0
@@ -16,6 +17,7 @@ specifiers:
   vue-router: ^4.0.0
 
 dependencies:
+  '@capacitor/android': 4.6.3_@capacitor+core@4.6.3
   '@capacitor/cli': 4.6.3
   '@capacitor/core': 4.6.3
   '@quasar/extras': 1.15.10
@@ -56,6 +58,14 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+
+  /@capacitor/android/4.6.3_@capacitor+core@4.6.3:
+    resolution: {integrity: sha512-jYND6OTsvIihxQiox6KARNKzlCHSGnMedXg5DGPZdREM+5F2SIvxBLQxC4/JpFBig2yJCVGsJMmhRkmz12S4FA==}
+    peerDependencies:
+      '@capacitor/core': ^4.6.0
+    dependencies:
+      '@capacitor/core': 4.6.3
+    dev: false
 
   /@capacitor/cli/4.6.3:
     resolution: {integrity: sha512-3BLti5iAo8lzkwUeWoZCMBGKxkY2aAlGR0SCmVzok3c2LXJwYNhrlrsoKFRjUHsiO4CmhmtR1ee2gsjvIzkOqQ==}

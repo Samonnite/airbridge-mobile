@@ -1,0 +1,13 @@
+{
+  "name": "airbridge-mobile",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "Samonnite <samonnite@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^4.6.3",
+    "@capacitor/cli": "^4.6.3",
+    "@capacitor/core": "^4.6.3",
+    "@capacitor/ios": "^4.0.0-beta.0"
+  }
+}
